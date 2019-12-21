@@ -31,7 +31,7 @@ function displayUserInfo(user) {
   let age = document.createElement("p")
   let gender= document.createElement("p")
   let img = document.createElement("img")
-  img.src = `../img/${user.gender}${imgNum}.png`
+  img.src = `https://github.com/AnaPavlov/30hills-test/tree/gh-pages/img/${user.gender}${imgNum}.png`
   name.innerHTML = "Name: " + user.firstName + " " + user.surname
   age.innerHTML = user.age ? ("Age: " + user.age) : ''
   gender.innerHTML = "Gender: " + user.gender
