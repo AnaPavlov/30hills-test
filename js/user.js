@@ -3,7 +3,7 @@ import createUserCard from "./helper.js";
 const usersDiv = document.querySelectorAll('.users') 
 
 let allUsers, currentUser;
-fetch("../data.json")
+fetch("https://raw.githubusercontent.com/AnaPavlov/30hills-test/master/data.json")
   .then(res => res.json())
   .then(res => getCurrentUser(res));
 
