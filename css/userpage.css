@@ -67,6 +67,7 @@ header {
 .users {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .user-type {
@@ -131,3 +132,13 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .wrap {
+        width: 98%;
+    }
+    .user {
+        width: 98%;
+        flex-direction: column;
+    }
+  }
