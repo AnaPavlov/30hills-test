@@ -55,7 +55,7 @@ section::after {
     content: 'Users';
     position: absolute;
     top: -18px;
-    left: 45%;
+    left: 42%;
     height: 30px;
     width: 120px;
     background-color: #ccc;
@@ -120,3 +120,16 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .wrap {
+        width: 98%;
+    }
+    .user {
+        width: 98%;
+        flex-direction: column;
+    }
+    section::after {
+        left: 35%;
+    }
+  }
